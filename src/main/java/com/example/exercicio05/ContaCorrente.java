@@ -13,7 +13,7 @@ public class ContaCorrente extends ContaBancaria {
             saldo -= valor;
             System.out.println("Saque de R$ " + valor + " realizado com sucesso ");
         }else {
-            System.out.println("Saque inválido, saldo insuficiente");
+            System.out.println("Saque inválido devido saldo insuficiente");
         }
     }
 }

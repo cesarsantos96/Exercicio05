@@ -35,8 +35,8 @@ public class ContaBancaria {
 
     public void mostarSaldo(){
         System.out.println("Titular: " + this.titular);
-        System.out.println("Conta: " + this.numeroConta);
-        System.out.println("Saldo: " + this.saldo);
+        System.out.println("Conta:  " + this.numeroConta);
+        System.out.println("Saldo:  " + this.saldo);
     }
     public void mostarSaldo1(){
         System.out.println("Saldo: " + this.saldo);
