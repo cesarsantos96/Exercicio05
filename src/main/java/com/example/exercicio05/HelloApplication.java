@@ -18,6 +18,16 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) {
-        launch();
+
+        ContaBancaria conta1 = new ContaBancaria("Maria", 9091);
+
+
+
+        conta1.mostarSaldo();
+        conta1.depositar(1000);
+        conta1.sacar(90);
+
+
+
     }
 }
